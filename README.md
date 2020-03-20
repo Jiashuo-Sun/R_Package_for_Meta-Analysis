@@ -37,10 +37,11 @@ minimum *p*-value among the K studies as the test statistic. It follows a beta d
 
 The maxP method takes maximum *p*-value as the test statistic. It follows a beta distribution with degrees of freedom *α = K* and *β = 1* under the null hypothesis.
 
+These methods in package:
 ![pooled p value](https://github.com/Jiashuo-Sun/R_Package_for_Meta-Analysis/blob/master/demo_picture/pooledP.png)
 
 ### Future Work
 
-1. More methods of combining p-value. 
-2. Implement functions of combining effect size.
+1. More methods of combining p-value. There are Adaptively Weighted (AW) Fisher method, r-th ordered *p*-value (rOP) method mentioned in the paper. 
+2. Implement functions of combining effect size. There are Fixed effects model (FEM), Random effects model (REM) two ways combining effect size in the paper.
 3. Implement functions of combining rank statistics. 
