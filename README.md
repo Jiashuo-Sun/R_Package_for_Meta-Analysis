@@ -38,6 +38,7 @@ minimum *p*-value among the K studies as the test statistic. It follows a beta d
 The maxP method takes maximum *p*-value as the test statistic. It follows a beta distribution with degrees of freedom *α = K* and *β = 1* under the null hypothesis.
 
 These methods in package:
+
 ![pooled p value](https://github.com/Jiashuo-Sun/R_Package_for_Meta-Analysis/blob/master/demo_picture/pooledP.png)
 
 ### Future Work
