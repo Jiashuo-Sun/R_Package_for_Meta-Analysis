@@ -14,11 +14,9 @@ This is an R package for meta analysis based on paper [Meta-analysis methods for
 
 ### Background and Meta-Analysis
 
-As high-throughput genomic technologies become accurate and affordable, an increasing number of data sets have been accumulated in the public domain and genomic information integration and meta-analysis have become routine in biomedical research.
+As high-throughput genomic technologies become accurate and affordable, an increasing number of data sets have been accumulated in the public domain and genomic information integration and meta-analysis have become routine in biomedical research. Microarray meta-analysis is where multiple microarray studies with relevant biological hypotheses are combined in order to improve candidate marker detection.
 
-Microarray meta-analysis is where multiple microarray studies with relevant biological hypotheses are combined in order to improve candidate marker detection.
-
-Microarray meta-analysis methods can be categorized into three types: combine *p*-values, combine effect sizes and combine ranks. In this pockage, we focused on combining *p*-values methods.
+Microarray meta-analysis methods can be categorized into three types: combine *p*-values, combine effect sizes and combine ranks. In this package, we focused on combining *p*-values methods.
 
 ### 4 Methods of Combining *p*-value
 
@@ -38,6 +36,8 @@ minimum *p*-value among the K studies as the test statistic. It follows a beta d
 4. Maximum *p*-value (maxP)
 
 The maxP method takes maximum *p*-value as the test statistic. It follows a beta distribution with degrees of freedom *α = K* and *β = 1* under the null hypothesis.
+
+![pooled p value](https://github.com/Jiashuo-Sun/R_Package_for_Meta-Analysis/blob/master/demo_picture/pooledP.png)
 
 ### Future Work
 
